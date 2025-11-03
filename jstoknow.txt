@@ -1,0 +1,28 @@
+
+indexOf alway returns the first index where that value is found.
+
+if you wnna flatten array
+[1,2]
+use  spread operator
+we can merge  and flatten object also by spread operator
+
+//🔹 Q8️⃣: Merge Multiple Objects into One
+
+//👉 Input:
+
+const objs = [{ a: 1 }, { b: 2 }, { c: 3 }];
+
+
+// 👉 Expected Output:
+
+// { a: 1, b: 2, c: 3 }
+
+const n=objs.reduce((a,c)=>{
+  a={...a,...c};
+  return a;
+} , {})
+console.log(n)
+
+
+
+***Array.isArray(a) is function to check is it actual array
