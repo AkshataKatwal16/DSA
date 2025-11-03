@@ -26,3 +26,7 @@ console.log(n)
 
 
 ***Array.isArray(a) is function to check is it actual array
+
+
+average: 81.66666666666667
+we can convert it to one decimal by average.toFixed(1)
